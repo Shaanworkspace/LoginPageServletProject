@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Login Page</title>
-    <link rel="stylesheet" type="text/css" href="../../../../../loginPageProject/src/main/webapp/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
 <div class="container">
@@ -13,9 +13,17 @@
     <p>🔴 Backend technologies used: JSP, Servlet, JDBC.</p>
     <p>Explore, learn, and connect with like-minded individuals. 🚀</p>
     <p>Feel free to <span class="emoji">👋</span> Login or <span class="emoji">🚀</span> Register to get started!</p>
-    <div class="links">
-        <a href="../login.jsp">Login</a>
-        <a href="../register.jsp">Register</a>
+    <div class="Buttons">
+        <div class="login">
+            <form action="/login.jsp">
+                <button type="submit" >Login</button>
+            </form>
+        </div>
+        <div class="Register">
+            <form action="/register.jsp">
+                <button type="submit">Register</button>
+            </form>
+        </div>
     </div>
 </div>
 </body>
