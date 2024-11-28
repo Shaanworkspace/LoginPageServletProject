@@ -48,11 +48,8 @@ input {
 }
 
 button {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
+
+    width: 150%;
     padding: 12px;
     cursor: pointer;
     background-color: #031aad;
@@ -66,7 +63,10 @@ button {
 /* Button Row Styles */
 .button-row {
     display: flex;
-    gap: 10px; /* Space between buttons */
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Center the buttons vertically if needed */
+    margin-top: auto; /* Push the button row to the bottom of the container */
+    gap: 50px; /* Add space between buttons */
 }
 button:hover {
     background-color: #0056b3;

@@ -18,21 +18,21 @@
 <body>
 <div class="container">
     <h1>Login</h1>
-    <form action="LoginServlet" method="post"> <!-- Update action URL -->
-        <div class="username">
+    <form action="<%=application.getContextPath()%>/LoginServlet" method="post"> <!-- Update action URL -->
+        <div class="username" >
             <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+            <input placeholder="Enter username" type="text" id="username" name="username" />
         </div>
+
         <div class="password">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+            <label for="password">Password:</label>
+            <input placeholder="Enter password" type="text" id="password" name="password" />
         </div>
         <button type="submit">Login</button>
     </form>
     <div class="links">
-        <a href="../html/index.html">Back to Home</a>
+        <a href="html/index.html">Back to Home</a>
     </div>
 </div>
-
 </body>
 </html>

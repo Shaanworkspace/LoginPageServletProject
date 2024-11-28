@@ -13,17 +13,18 @@
     <p>🔴 Backend technologies used: JSP, Servlet, JDBC.</p>
     <p>Explore, learn, and connect with like-minded individuals. 🚀</p>
     <p>Feel free to <span class="emoji">👋</span> Login or <span class="emoji">🚀</span> Register to get started!</p>
-    <div class="Buttons">
+    <!-- Button Row -->
+    <div class="button-row">
         <div class="login">
-            <form action="/login.jsp">
-                <button type="submit" >Login</button>
-            </form>
+            <a href="login.jsp">
+                <button type="submit">Login</button>
+            </a>
         </div>
-        <div class="Register">
-            <form action="/register.jsp">
-                <button type="submit">Register</button>
-            </form>
-        </div>
+        <form action="register.jsp" method="post">
+            <div class="register">
+                    <button type="submit">Register</button>
+            </div>
+        </form>
     </div>
 </div>
 </body>

@@ -2,12 +2,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+    <h1>"Lets move to main page" </h1>
+    <br/>
+    <a href="<%=application.getContextPath()%>/html/index.html">Go to main page</a>
 </body>
 </html>

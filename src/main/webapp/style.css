@@ -29,10 +29,21 @@ body {
     text-align: center; /* Center the content */
 }
 
+/*.password input::placeholder {*/
+/*    color: #999; !* Light gray color for placeholder text *!*/
+/*    opacity: 1; !* Ensures full opacity *!*/
+/*}*/
+/*.username input::placeholder {*/
+/*    color: #999; !* Light gray color for placeholder text *!*/
+/*    opacity: 1; !* Ensures full opacity *!*/
+/*}*/
 h1 {
     font-weight: bold;
     text-align: center;
     color: #007BFF;
+}
+input{
+    width: 10px;
 }
 
 p {
@@ -48,7 +59,7 @@ p {
 
 
 .links a {
-
+    padding: 50px;
     margin: 0 40px;
     text-decoration: none;
     color: #007BFF;
